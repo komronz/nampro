@@ -1,0 +1,14 @@
+{
+  "technogenic": "Technogenic",
+  "natural": "Natural",
+  "ecological": "Ecological",
+  "electric_safety_info": "Elektr xavfsizligi",
+  "electric_safety_info_text": "Elektr tokining, elektr yoyning, elektromagnit maydonlari,  statik elektr toklarining zararli va xavfli ta’sirlaridan insonlami muhofaza qilishni \"\"ta’minlovchi tashkiliy va texnikaviy tadbirlar hamda vositalar tizimlari hisoblanad, Elektr toki inson organizmi uchun katta xavf bo‘lib hisoblanadi. Inson organizmi orqali elektr toki o‘tganda, elektrdan jarohatlanish kelib chiqadi: muskullar qisqaradi; ko‘z qorachig‘i kengayadi; miya faoliyati buziladi; tana qiziydi;\"\" teri kuyishi mumkin; organizmada biologik o‘zgarishlar kuzatiladi; organizmda qutblanish kuzatiladi va hokazo. Dastlab barcha muskullar qisqarishi, tok urishi, elektr tokidan kuyish, turli xilko‘rinishdagi dog‘(belgi)lar hosil bo‘lishi kuzatiladi. Elektr tokining ta’sirida og‘ir jarohatlar yuzaga kelishi, inson hattoki o‘lishi mumkin",
+  "electric_safety_advice": "Tavfsiyalar elektr xavfsizligi",
+  "electric_safety_advice_text": "Doimo elektr xavfsizligi qoidalariga amal qiling!",
+  "electric_safety_advice_text1": "Nosoz va uy sahroitida yasalgan elektr qurilmalaridan foydalanmang!",
+  "electric_safety_advice_text2": "Nosoz elektr qurilmalarini o’zboshimchalik bilan tuzatishga harakat qilmang!",
+  "electric_safety_advice_text3": "Bir necha elektr qurilmalarini bir manbaaga ulamang!",
+  "electric_safety_advice_text4": "Elektr tarmog’ida ortiqcha kuchlanish yuzaga kelganda avtomatik o’chirish qurilmalarini uyingizga o’rnating!",
+  "electric_safety_advice_text5": "Oila a’zolaringizga elektr xavfsizligi bo’yicha tushunchalar berib boring!"
+}
