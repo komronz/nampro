@@ -32,9 +32,9 @@ class LanguagePage extends StatelessWidget {
                     top: 32,
                   ),
                   child: Column(
-                    children: Data.languages
+                    children: languages
                         .map(
-                          (language) => WInitLanguage(
+                          (language) => WLangButton(
                             language,
                           ),
                         )

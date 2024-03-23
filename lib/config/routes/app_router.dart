@@ -19,5 +19,17 @@ class AppRouter extends $AppRouter {
           transitionsBuilder: TransitionsBuilders.fadeIn,
           durationInMilliseconds: 300,
         ),
+        CustomRoute(
+          page: CategoriesRoute.page,
+          path: Routes.optionsPage,
+          transitionsBuilder: TransitionsBuilders.fadeIn,
+          durationInMilliseconds: 300,
+        ),
+        CustomRoute(
+          page: CategoryDetailsRoute.page,
+          path: Routes.detailsPage,
+          transitionsBuilder: TransitionsBuilders.fadeIn,
+          durationInMilliseconds: 300,
+        ),
       ];
 }

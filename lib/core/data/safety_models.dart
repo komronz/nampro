@@ -13,12 +13,12 @@ class Safety {
 class Category {
   final String title;
   final String icon;
-  final SafetyBody bodies;
+  final SafetyBody body;
 
   Category({
     required this.title,
     required this.icon,
-    required this.bodies,
+    required this.body,
   });
 }
 

@@ -1,14 +1,15 @@
 {
+  "change_lang": "Change Language",
   "technogenic": "Technogenic",
   "natural": "Natural",
   "ecological": "Ecological",
-  "electric_safety_info": "Electrical safety",
-  "electric_safety_info_text": "Organizational and technical measures and systems of tools that ensure human protection from the harmful and dangerous effects of electric current, electric arc, electromagnetic fields, static electric currents are considered. Electric current is considered a great danger for the human body. When an electric current passes through the human body, an electric injury occurs: the muscles contract; pupil dilates; brain activity is disturbed; the body heats up;\"\" the skin can burn; biological changes are observed in the organism; polarization is observed in the organism, etc. At first, contraction of all muscles, electric shock, burns from electric current, formation of spots (signs) of various forms are observed. Electric current can cause severe injuries and even death.",
-  "electric_safety_advice": "Recommendations electrical safety",
+  "electric_safety_info": "Electric Safety Information",
+  "electric_safety_info_text": "Electric shock, electric burn, electromagnetic fields, harmful and dangerous effects of static electric shocks are considered to be ensuring organizational and technical measures and means systems, Electric shock is considered a major hazard to the human body. When exposed to electric shock through the human body, injuries occur: muscles contract; pupil dilation occurs; nerve function is disrupted; skin burns may occur; biological changes are observed in the body; heartbeat is monitored, etc. Initially, all muscle contractions, electric shock, electric shock, and various types of burns are observed. Heavy injuries can occur due to the effects of electric shock, including death.",
+  "electric_safety_advice": "Electric Safety Advice",
   "electric_safety_advice_text": "Always follow electrical safety rules!",
-  "electric_safety_advice_text1": "Do not use defective and home-made electrical devices!",
-  "electric_safety_advice_text2": "Do not attempt to repair faulty electrical devices on your own!",
-  "electric_safety_advice_text3": "Do not connect several electrical devices to the same source!",
-  "electric_safety_advice_text4": "Install automatic shutdown devices in your home in case of overvoltage in the electrical network!",
-  "electric_safety_advice_text5": "Teach your family members about electrical safety!"
+  "electric_safety_advice_text1": "Do not use electrical appliances installed in improper and wet places!",
+  "electric_safety_advice_text2": "Do not attempt to repair electrical appliances yourself!",
+  "electric_safety_advice_text3": "Do not connect multiple electrical appliances to one source!",
+  "electric_safety_advice_text4": "Install automatic shutdown devices in your home when excessive voltage occurs in the electrical network!",
+  "electric_safety_advice_text5": "Educate your family members about electrical safety!"
 }

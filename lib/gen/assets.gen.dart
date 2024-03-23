@@ -12,6 +12,13 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/advice_icon.png
+  AssetGenImage get adviceIcon =>
+      const AssetGenImage('assets/icons/advice_icon.png');
+
+  /// File path: assets/icons/back_icon.svg
+  String get backIcon => 'assets/icons/back_icon.svg';
+
   /// File path: assets/icons/electric.png
   AssetGenImage get electric =>
       const AssetGenImage('assets/icons/electric.png');
@@ -22,6 +29,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/langs_icon.png
   AssetGenImage get langsIcon =>
       const AssetGenImage('assets/icons/langs_icon.png');
+
+  /// File path: assets/icons/right_icon.svg
+  String get rightIcon => 'assets/icons/right_icon.svg';
 
   /// File path: assets/icons/ru_icon.png
   AssetGenImage get ruIcon => const AssetGenImage('assets/icons/ru_icon.png');
@@ -34,8 +44,17 @@ class $AssetsIconsGen {
   AssetGenImage get uzIcon => const AssetGenImage('assets/icons/uz_icon.png');
 
   /// List of all assets
-  List<AssetGenImage> get values =>
-      [electric, enIcon, langsIcon, ruIcon, technogenic, uzIcon];
+  List<dynamic> get values => [
+        adviceIcon,
+        backIcon,
+        electric,
+        enIcon,
+        langsIcon,
+        rightIcon,
+        ruIcon,
+        technogenic,
+        uzIcon
+      ];
 }
 
 class $AssetsImagesGen {

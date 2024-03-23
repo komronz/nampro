@@ -2,13 +2,13 @@ import 'package:auto_route/auto_route.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
-import '../../../config/routes/app_router.gr.dart';
-import '../../../gen/assets.gen.dart';
+import '/config/routes/app_router.gr.dart';
+import '/gen/assets.gen.dart';
 
-class WInitLanguage extends StatelessWidget {
+class WLangButton extends StatelessWidget {
   final Locale locale;
 
-  const WInitLanguage(this.locale, {Key? key}) : super(key: key);
+  const WLangButton(this.locale, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -27,6 +27,14 @@ class WInitLanguage extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
           color: Colors.white,
+          boxShadow: const [
+            BoxShadow(
+              color: Color(0x1A0F361E),
+              blurRadius: 10,
+              offset: Offset(0, 4),
+              spreadRadius: 0.1,
+            )
+          ],
           border: Border.all(
             color: context.locale == locale
                 ? const Color(0xFF37BD6B)
