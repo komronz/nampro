@@ -116,13 +116,48 @@ class WOption extends StatelessWidget {
                 ],
               ),
             ],
-            images: [
-              'electric1.png',
-              'electric2.png',
-            ],
           ),
           icon: 'electric.png',
         ),
+        Category(
+          title: LocaleKeys.electric_safety_info.tr(),
+          body: SafetyBody(
+            infoItems: [
+              Item(
+                title: LocaleKeys.electric_safety_info.tr(),
+                subtitle: LocaleKeys.electric_safety_info_text.tr(),
+              ),
+              Item(
+                title: LocaleKeys.electric_safety_info.tr(),
+                subtitle: LocaleKeys.electric_safety_info_text.tr(),
+                texts: [
+                  "1",
+                  "2",
+                ],
+              ),
+            ],
+            adviceItems: [
+              Item(
+                title: LocaleKeys.electric_safety_advice.tr(),
+                texts: [
+                  LocaleKeys.electric_safety_advice_text.tr(),
+                  LocaleKeys.electric_safety_advice_text1.tr(),
+                  LocaleKeys.electric_safety_advice_text2.tr(),
+                  LocaleKeys.electric_safety_advice_text3.tr(),
+                  LocaleKeys.electric_safety_advice_text4.tr(),
+                  LocaleKeys.electric_safety_advice_text5.tr(),
+                ],
+              ),
+            ],
+            images: [
+              "fire1.png",
+              "fire2.png"
+            ],
+          ),
+          icon: 'fire.png',
+        ),
+
+
       ],
       icon: 'technogenic.png',
     ),
