@@ -16,14 +16,20 @@ class WInfoBaseContainer extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
         children: [
-          Text(
-            title ?? '',
-            style: const TextStyle(
-              color: Color(0xFF303030),
-              fontSize: 14,
-              fontFamily: 'Lato',
-              fontWeight: FontWeight.w800,
+          Flexible(
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Text(
+                title ?? '',
+                style: const TextStyle(
+                  color: Color(0xFF303030),
+                  fontSize: 14,
+                  fontFamily: 'Lato',
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
             ),
           ),
           Padding(
@@ -45,30 +51,35 @@ class WInfoBaseContainer extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: texts
                       ?.map(
-                        (text) => Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Container(
-                              margin: const EdgeInsets.symmetric(vertical: 4)
-                                  .copyWith(right: 4),
-                              width: 8,
-                              height: 8,
-                              decoration: const ShapeDecoration(
-                                color: Color(0xFF434343),
-                                shape: OvalBorder(),
+                        (text) => Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 4)
+                              .copyWith(left: 24),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Container(
+                                margin: const EdgeInsets.only(right: 4),
+                                width: 8,
+                                height: 8,
+                                decoration: const ShapeDecoration(
+                                  color: Color(0xFF434343),
+                                  shape: OvalBorder(),
+                                ),
                               ),
-                            ),
-                            Text(
-                              text,
-                              style: const TextStyle(
-                                color: Color(0xFF434343),
-                                fontSize: 12,
-                                fontFamily: 'Lato',
-                                fontWeight: FontWeight.w600,
-                              ),
-                            )
-                          ],
+                              Expanded(
+                                child: Text(
+                                  text,
+                                  style: const TextStyle(
+                                    color: Color(0xFF434343),
+                                    fontSize: 12,
+                                    fontFamily: 'Lato',
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
                         ),
                       )
                       .toList() ??

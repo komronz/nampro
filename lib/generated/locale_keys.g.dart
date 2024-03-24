@@ -1,4 +1,5 @@
 // DO NOT EDIT. This is code generated via package:easy_localization/generate.dart
+
 abstract class  LocaleKeys {
   static const change_lang = 'change_lang';
   static const technogenic = 'technogenic';
@@ -120,4 +121,5 @@ abstract class  LocaleKeys {
   static const ecological_safety_advice_text4 = 'ecological_safety_advice_text4';
   static const ecological_safety_advice_text5 = 'ecological_safety_advice_text5';
   static const ecological_safety_advice_text6 = 'ecological_safety_advice_text6';
+
 }

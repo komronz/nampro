@@ -60,13 +60,13 @@ class $AssetsIconsGen {
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
-  /// File path: assets/images/electric1.png
+  /// File path: assets/images/fire1.png
   AssetGenImage get electric1 =>
-      const AssetGenImage('assets/images/electric1.png');
+      const AssetGenImage('assets/images/fire1.png');
 
-  /// File path: assets/images/electric2.png
+  /// File path: assets/images/fire2.png
   AssetGenImage get electric2 =>
-      const AssetGenImage('assets/images/electric2.png');
+      const AssetGenImage('assets/images/fire2.png');
 
   /// List of all assets
   List<AssetGenImage> get values => [electric1, electric2];

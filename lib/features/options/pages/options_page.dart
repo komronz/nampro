@@ -16,7 +16,7 @@ class OptionsPage extends StatelessWidget {
       title: LocaleKeys.change_lang.tr(),
       child: ListView(
         children: List.generate(
-          1,
+          3,
           (index) => WOption(index: index),
         ),
       ),

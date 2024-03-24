@@ -48,9 +48,12 @@ class CategoryDetailsPage extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: List.generate(
                 safetyBody.images?.length ?? 0,
-                (index) => Image.asset(
-                  "assets/images/${safetyBody.images?[index]}",
-                  fit: BoxFit.contain,
+                (index) => Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 10),
+                  child: Image.asset(
+                    "assets/images/${safetyBody.images?[index]}",
+                    fit: BoxFit.contain,
+                  ),
                 ),
               ),
             ),
