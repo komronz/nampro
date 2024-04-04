@@ -181,6 +181,7 @@ class WOption extends StatelessWidget {
               'fire1.png',
               'fire2.png',
             ],
+            videoURL: "https://youtu.be/pDo99wKoqmw",
           ),
           icon: 'fire.png',
         ),
@@ -213,6 +214,7 @@ class WOption extends StatelessWidget {
               'transport1.png',
               'transport2.png',
             ],
+            videoURL: "https://youtu.be/Eh3qVAW4Les",
           ),
           icon: 'transport.png',
         ),
@@ -225,38 +227,43 @@ class WOption extends StatelessWidget {
       categories: [
         Category(
           title: LocaleKeys.earthquake_safety_info.tr(),
-          body: SafetyBody(infoItems: [
-            Item(
-              title: LocaleKeys.earthquake_safety_info.tr(),
-              subtitle: LocaleKeys.earthquake_safety_info_text.tr(),
-            ),
-          ], adviceItems: [
-            Item(
-              title: LocaleKeys.earthquake_safety_advice.tr(),
-              texts: [
-                LocaleKeys.earthquake_safety_advice_text.tr(),
-                LocaleKeys.earthquake_safety_advice_text1.tr(),
-                LocaleKeys.earthquake_safety_advice_text2.tr(),
-                LocaleKeys.earthquake_safety_advice_text3.tr(),
-                LocaleKeys.earthquake_safety_advice_text4.tr(),
-                LocaleKeys.earthquake_safety_advice_text5.tr(),
-              ],
-            ),
-            Item(
-              title: LocaleKeys.earthquake_safety_advice1.tr(),
-              texts: [
-                LocaleKeys.earthquake_safety_advice1_text.tr(),
-                LocaleKeys.earthquake_safety_advice1_text1.tr(),
-                LocaleKeys.earthquake_safety_advice1_text2.tr(),
-                LocaleKeys.earthquake_safety_advice1_text3.tr(),
-                LocaleKeys.earthquake_safety_advice1_text4.tr(),
-                LocaleKeys.earthquake_safety_advice1_text5.tr(),
-              ],
-            ),
-          ], images: [
-            'earthquake1.png',
-            'earthquake2.png',
-          ]),
+          body: SafetyBody(
+            infoItems: [
+              Item(
+                title: LocaleKeys.earthquake_safety_info.tr(),
+                subtitle: LocaleKeys.earthquake_safety_info_text.tr(),
+              ),
+            ],
+            adviceItems: [
+              Item(
+                title: LocaleKeys.earthquake_safety_advice.tr(),
+                texts: [
+                  LocaleKeys.earthquake_safety_advice_text.tr(),
+                  LocaleKeys.earthquake_safety_advice_text1.tr(),
+                  LocaleKeys.earthquake_safety_advice_text2.tr(),
+                  LocaleKeys.earthquake_safety_advice_text3.tr(),
+                  LocaleKeys.earthquake_safety_advice_text4.tr(),
+                  LocaleKeys.earthquake_safety_advice_text5.tr(),
+                ],
+              ),
+              Item(
+                title: LocaleKeys.earthquake_safety_advice1.tr(),
+                texts: [
+                  LocaleKeys.earthquake_safety_advice1_text.tr(),
+                  LocaleKeys.earthquake_safety_advice1_text1.tr(),
+                  LocaleKeys.earthquake_safety_advice1_text2.tr(),
+                  LocaleKeys.earthquake_safety_advice1_text3.tr(),
+                  LocaleKeys.earthquake_safety_advice1_text4.tr(),
+                  LocaleKeys.earthquake_safety_advice1_text5.tr(),
+                ],
+              ),
+            ],
+            images: [
+              'earthquake1.png',
+              'earthquake2.png',
+            ],
+            videoURL: "https://youtu.be/AwvSIU9fFUY",
+          ),
           icon: 'earthquake.png',
         ),
         Category(
@@ -308,6 +315,7 @@ class WOption extends StatelessWidget {
             images: [
               "water1.png",
             ],
+            videoURL: "https://youtu.be/U_gk4Yg-av0",
           ),
           icon: 'water.png',
         ),
@@ -338,6 +346,7 @@ class WOption extends StatelessWidget {
               "snow1.png",
               "snow2.png",
             ],
+            videoURL: "https://youtu.be/60BqMu2I-r4",
           ),
           icon: 'snow.png',
         ),
@@ -398,6 +407,7 @@ class WOption extends StatelessWidget {
               ),
             ],
             images: ['ecologic1.png'],
+            videoURL: "https://youtu.be/kPFDiZwIOdU",
           ),
           icon: 'ecologic_icon.png',
         ),

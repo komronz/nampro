@@ -64,14 +64,14 @@ class DefaultAppBar extends StatelessWidget implements PreferredSizeWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Flexible(
-            child: GestureDetector(
-              behavior: HitTestBehavior.translucent,
-              onTap: () => context.router.pop(),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  if (leading is! SizedBox)
-                    Padding(
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                if (leading is! SizedBox)
+                  GestureDetector(
+                    behavior: HitTestBehavior.translucent,
+                    onTap: () => context.router.pop(),
+                    child: Padding(
                       padding: withoutLeadingPadding
                           ? EdgeInsets.zero
                           : const EdgeInsets.symmetric(vertical: 12).copyWith(
@@ -84,35 +84,35 @@ class DefaultAppBar extends StatelessWidget implements PreferredSizeWidget {
                             "assets/icons/back_icon.svg",
                           ),
                     ),
-                  Expanded(
-                    child: title != null
-                        ? Text(
-                            title ?? '',
-                            textAlign: centerTitle ? TextAlign.center : null,
-                            style: const TextStyle(
-                              color: Colors.black,
-                              fontSize: 18,
-                              fontFamily: 'Lato',
-                              fontWeight: FontWeight.w700,
-                              height: 0.09,
-                            ),
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          )
-                        : titleWidget ?? const SizedBox(),
                   ),
-                  if (actions is! SizedBox)
-                    Padding(
-                      padding: const EdgeInsets.only(right: 16, bottom: 4),
-                      child: actions ??
-                          const SizedBox(
-                            width: 44,
-                          ),
-                    )
+                Expanded(
+                  child: title != null
+                      ? Text(
+                        title ?? '',
+                        textAlign: centerTitle ? TextAlign.center : null,
+                        style: const TextStyle(
+                          color: Colors.black,
+                          fontSize: 18,
+                          fontFamily: 'Lato',
+                          fontWeight: FontWeight.w700,
+                          height: 0.09,
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      )
+                      : titleWidget ?? const SizedBox(),
+                ),
+                if (actions is! SizedBox)
+                  Padding(
+                    padding: const EdgeInsets.only(right: 16, bottom: 4),
+                    child: actions ??
+                        const SizedBox(
+                          width: 44,
+                        ),
+                  )
 
-                  //Hero(tag: 'logo', child: action ?? Assets.images.logo.image()),
-                ],
-              ),
+                //Hero(tag: 'logo', child: action ?? Assets.images.logo.image()),
+              ],
             ),
           ),
           if (bottom != null) bottom!,

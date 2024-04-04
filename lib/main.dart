@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Nampro app',
+      title: 'Safety24',
       theme: ThemeData(
         scaffoldBackgroundColor: const Color(0xFFEDEEED),
       ),

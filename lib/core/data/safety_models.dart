@@ -26,11 +26,13 @@ class SafetyBody {
   final List<Item>? infoItems;
   final List<Item>? adviceItems;
   final List<String>? images;
+  final String? videoURL;
 
   SafetyBody({
     this.infoItems,
     this.adviceItems,
     this.images,
+    this.videoURL
   });
 }
 

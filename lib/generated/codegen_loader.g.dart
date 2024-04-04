@@ -134,7 +134,8 @@ class CodegenLoader extends AssetLoader{
   "ecological_safety_advice_text3": "На производствах внедряются безопасные технологии. Использование новой технологии, основанной на синтетической изоляции кабелей, приводит к снижению выбросов в атмосферу!",
   "ecological_safety_advice_text4": "Использование геотермальных источников нижних термальных вод (горячая вода 90 градусов) на предприятиях может снизить загрязнение воздуха!",
   "ecological_safety_advice_text5": "Снижение выбросов газов, выходящих из автотранспорта, (использование пропана вместо бензина, например) может снизить загрязнение воздуха!",
-  "ecological_safety_advice_text6": "Увеличение числа зеленых растений в городах и селах может снизить загрязнение воздуха!"
+  "ecological_safety_advice_text6": "Увеличение числа зеленых растений в городах и селах может снизить загрязнение воздуха!",
+  "youtube_channel": "Наш канал на YouTube"
 };
 static const Map<String,dynamic> en = {
   "change_lang": "Change Language",
@@ -256,7 +257,8 @@ static const Map<String,dynamic> en = {
   "ecological_safety_advice_text3": "Introduction of environmentally friendly technologies in industrial plants. Transition to new technologies that cover cables with synthetic insulation has eliminated the release of ozone into the atmosphere!",
   "ecological_safety_advice_text4": "Reducing pollution by using bottom thermal waters (hot water at 90 degrees) in industry!",
   "ecological_safety_advice_text5": "Reducing air pollution from automobiles by using gas emissions reducers (using propane instead of gasoline)!",
-  "ecological_safety_advice_text6": "Increasing the number of green plants in cities and villages to mitigate air pollution!"
+  "ecological_safety_advice_text6": "Increasing the number of green plants in cities and villages to mitigate air pollution!",
+  "youtube_channel": "Our YouTube channel"
 };
 static const Map<String,dynamic> uz = {
   "change_lang": "Tilni o’zgartirish",
@@ -378,7 +380,8 @@ static const Map<String,dynamic> uz = {
   "ecological_safety_advice_text3": "Sanoat korxonalarida chiqitsiz texnologiyalarni joriy etish hisoblanadi. Kabelni sintetik qoplama bilan o‘raydigan yangi texnologiyaga o‘tilishi, atmosferaga qo‘rg‘oshinni chiqishi yo‘qotildi!",
   "ecological_safety_advice_text4": "Sanoatda yer osti termal suvlardan (issiq suv 90 gradusli) foydalanish orqali ifloslanishni kamaytirish mumkin!",
   "ecological_safety_advice_text5": "Avtotransportlardan chiqadigan gazlarni, dudlarini kamaytirish orqali (benzin o‘rniga, propan yoqilg‘isini qo‘llash orqali) havoni ifloslanishini kamaytirish mumkin!",
-  "ecological_safety_advice_text6": "Shahar va qishloqlarda yashil o‘simliklarni ko‘paytirish orqali havoni ifloslanishidan saqlash mumkin!"
+  "ecological_safety_advice_text6": "Shahar va qishloqlarda yashil o‘simliklarni ko‘paytirish orqali havoni ifloslanishidan saqlash mumkin!",
+  "youtube_channel": "Bizning YouTube kanalimiz"
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"ru": ru, "en": en, "uz": uz};
 }
