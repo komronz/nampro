@@ -122,5 +122,6 @@ abstract class  LocaleKeys {
   static const ecological_safety_advice_text5 = 'ecological_safety_advice_text5';
   static const ecological_safety_advice_text6 = 'ecological_safety_advice_text6';
   static const youtube_channel = 'youtube_channel';
+  static const first_aid = 'first_aid';
 
 }

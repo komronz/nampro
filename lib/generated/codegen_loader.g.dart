@@ -135,7 +135,8 @@ class CodegenLoader extends AssetLoader{
   "ecological_safety_advice_text4": "Использование геотермальных источников нижних термальных вод (горячая вода 90 градусов) на предприятиях может снизить загрязнение воздуха!",
   "ecological_safety_advice_text5": "Снижение выбросов газов, выходящих из автотранспорта, (использование пропана вместо бензина, например) может снизить загрязнение воздуха!",
   "ecological_safety_advice_text6": "Увеличение числа зеленых растений в городах и селах может снизить загрязнение воздуха!",
-  "youtube_channel": "Наш канал на YouTube"
+  "youtube_channel": "Наш канал на YouTube",
+  "first_aid": "Первая помощь!"
 };
 static const Map<String,dynamic> en = {
   "change_lang": "Change Language",
@@ -258,7 +259,8 @@ static const Map<String,dynamic> en = {
   "ecological_safety_advice_text4": "Reducing pollution by using bottom thermal waters (hot water at 90 degrees) in industry!",
   "ecological_safety_advice_text5": "Reducing air pollution from automobiles by using gas emissions reducers (using propane instead of gasoline)!",
   "ecological_safety_advice_text6": "Increasing the number of green plants in cities and villages to mitigate air pollution!",
-  "youtube_channel": "Our YouTube channel"
+  "youtube_channel": "Our YouTube channel",
+  "first_aid": "First aid!"
 };
 static const Map<String,dynamic> uz = {
   "change_lang": "Tilni o’zgartirish",
@@ -266,8 +268,8 @@ static const Map<String,dynamic> uz = {
   "natural": "Tabiiy",
   "ecological": "Ekologik",
   "electric_safety_info": "Elektr xavfsizligi",
-  "electric_safety_info_text": "Elektr tokining, elektr yoyning, elektromagnit maydonlari,  statik elektr toklarining zararli va xavfli ta’sirlaridan insonlami muhofaza qilishni \"\"ta’minlovchi tashkiliy va texnikaviy tadbirlar hamda vositalar tizimlari hisoblanad, Elektr toki inson organizmi uchun katta xavf bo‘lib hisoblanadi. Inson organizmi orqali elektr toki o‘tganda, elektrdan jarohatlanish kelib chiqadi: muskullar qisqaradi; ko‘z qorachig‘i kengayadi; miya faoliyati buziladi; tana qiziydi;\"\" teri kuyishi mumkin; organizmada biologik o‘zgarishlar kuzatiladi; organizmda qutblanish kuzatiladi va hokazo. Dastlab barcha muskullar qisqarishi, tok urishi, elektr tokidan kuyish, turli xilko‘rinishdagi dog‘(belgi)lar hosil bo‘lishi kuzatiladi. Elektr tokining ta’sirida og‘ir jarohatlar yuzaga kelishi, inson hattoki o‘lishi mumkin.",
-  "electric_safety_advice": "Elektr xavfsizlig tavfsiyalar",
+  "electric_safety_info_text": "Elektr tokining, elektr yoyning, elektromagnit maydonlari,  statik elektr toklarining zararli va xavfli ta’sirlaridan insonlarmi muhofaza qilishni ta’minlovchi tashkiliy va texnikaviy tadbirlar hamda vositalar tizimlari hisoblanadi, Elektr toki inson organizmi uchun katta xavf hisoblanadi. Inson organizmi orqali elektr toki o‘tganda, elektrdan jarohatlanish kelib chiqadi: muskullar qisqaradi; ko‘z qorachig‘i kengayadi; miya faoliyati buziladi; tana qiziydi; teri kuyishi mumkin; organizmda biologik o‘zgarishlar kuzatiladi; organizmda qutblanish kuzatiladi va hokazo. Dastlab barcha muskullar qisqarishi, tok urishi, elektr tokidan kuyish, turli xil ko‘rinishdagi dog‘(belgi)lar hosil bo‘lishi kuzatiladi. Elektr tokining ta’sirida og‘ir jarohatlar yuzaga kelishi, inson hattoki o‘lishi mumkin.",
+  "electric_safety_advice": "Elektr xavfsizligi tavfsiyalar",
   "electric_safety_advice_text": "Doimo elektr xavfsizligi qoidalariga amal qiling!",
   "electric_safety_advice_text1": "Nosoz va uy sahroitida yasalgan elektr qurilmalaridan foydalanmang!",
   "electric_safety_advice_text2": "Nosoz elektr qurilmalarini o’zboshimchalik bilan tuzatishga harakat qilmang!",
@@ -277,11 +279,11 @@ static const Map<String,dynamic> uz = {
   "fire_safety_info": "Yong’in xavfsizligi",
   "fire_safety_info_text": "Yuridik va jismoniy shaxslarning  mol-mulkining, shuningdek atrof tabiiy muhitning yong’inlardan himoyalanganligi holati.",
   "fire_safety_info1": "Yonish",
-  "fire_safety_info1_text": "Gaz, issiqlik va yorug’lik ajralishi bilan kechadigan, oksidla nishning yoki yonuvchi modda va havodagi kislorod birikishida tez kechadigan kimyoviy jarayoni. Yong‘inning kelib chiqishi uch omilning bir vaqtda, bir joyda duch kelishining oqibatidir:",
-  "fire_safety_info1_texts": "Yonuvchan moddani (neft, qog‘oz, yog‘och va boshqalar)",
+  "fire_safety_info1_text": "Gaz, issiqlik va yorug’lik ajralishi bilan kechadigan, oksidlanishning yoki yonuvchi modda va havodagi kislorod birikishida tez kechadigan kimyoviy jarayoni. Yong‘inning kelib chiqishi uch omilning bir vaqtda, bir joyda duch kelishining oqibatidir:",
+  "fire_safety_info1_texts": "Yonuvchan modda (neft, qog‘oz, yog‘och va boshqalar)",
   "fire_safety_info1_texts1": "Havo harorati (issiqlik)",
   "fire_safety_info1_texts2": "Uchqun-alanga (gugurt, uchqun, elektr simining qisqa tutashuvi)",
-  "fire_safety_advice": "Yong’in oldini olish choralari",
+  "fire_safety_advice": "Yong’in hodisasining oldini olish choralari",
   "fire_safety_advice_text": "Doimo yong’in xavfsizligi qoidalariga amal qiling!",
   "fire_safety_advice_text1": "Binoning ichki qismlarida yosh bolalar va kattalarning ochiq olovdan foydalanishlariga yo’l qo’ymang!",
   "fire_safety_advice_text2": "Gaz plitasiga yaqin hududda kiyim quritilishiga yo’l qo’ymang!",
@@ -296,7 +298,7 @@ static const Map<String,dynamic> uz = {
   "fire_safety_advice1_text1": "Yong‘indan uzoqlashing!",
   "fire_safety_advice1_text3": "Ko‘p qavatli uyda bo‘lsangiz, liftdan foydalanmang!",
   "fire_safety_advice1_text2": "Oynani ochib, oshiqcha kislorodning xonaga kirishiga yo‘l qo‘ymang, aks holda portlash sodir bo‘lishi mumkin!",
-  "fire_safety_advice1_text4": "Yonuvchan suyuqliklarni (benzin, kerosin va boshqalar), shuningdek, elektr energiyasiga ulangan yonib turgan elektrjihozlarni suv bilan o‘chirmang!",
+  "fire_safety_advice1_text4": "Yonuvchan suyuqliklarni (benzin, kerosin va boshqalar), shuningdek, elektr energiyasiga ulangan, yonib turgan elektr jihozlarni suv bilan o‘chirmang!",
   "fire_safety_advice2": "Yong’in vaqtida nima qilmaslik kerak",
   "fire_safety_advice2_text": "Esdan chiqqan buyumni olib ketish uchun yong‘in joyiga qaytmang. Bu yong‘in vaqtida eng ko‘p takrorlanadigan xatolardan biri. Tartibsizlik orasida sizni hech kim izlamasligi ham mumkin. Sog‘lingiz hech bir buyumdan ustun emas!",
   "fire_safety_advice2_text1": "Yong‘inni o‘chirishga ko‘zingiz yetmasa, oxirgi daqiqagacha uni bartaraf etish uchun qolib ketmang. Bu fojiali yakunlanishi mumkin. Jiddiy kuyish jarohati olish xavfidan tashqari tutun sabab odam hushidan ketib, binoda qolib ketishi mumkin. Yong‘in vaqtida o‘lim holatlari ko‘proq olovdan emas, balki aynan tutundan bo‘g‘ilib qolishdan sodir bo‘ladi!",
@@ -305,17 +307,17 @@ static const Map<String,dynamic> uz = {
   "fire_safety_advice2_text4": "Yong‘indan qochib yuqori qavatga ko‘tarilmang. Yong‘in va tutun tepaga qarab ko‘tariladi. Liftdan emas, zinapoyadan tushing!",
   "fire_safety_advice2_text5": "Karavot tagiga yoki shkaf ichiga yashirinmang. Qutqaruvchilar sizni topa olmasligi, tutundan bo‘g‘ilib, hushdan ketgan holda qolib ketishingiz mumkin",
   "transport_safety_info": "Yo’l-transport hodisasi",
-  "transport safety_info_text": "Transport vositasining yo’ldagi qatnovi jarayonida sodir bo’lib, fuqarolarning o’limi yoki ularning sog’lig’iga zarar etishiga, transport vositalari, inshootlar, yuklar shikastlanishi yoki boshqa moddiy zarar yetkazilishiga sabab bo’lgan hodisa.",
+  "transport safety_info_text": "Transport vositasining yo’ldagi qatnovi jarayonida sodir bo’lib, fuqarolarning o’limi yoki ularning sog’lig’iga zarar yetishiga, transport vositalari, inshootlar, yuklar shikastlanishi yoki boshqa moddiy zarar yetkazilishiga sabab bo’lgan hodisa.",
   "transport_safety_info1": "Avariya",
-  "transport_safety_info1_text": "Aniq bir hudud yoki obyektda odamlarning hayoti, sog’lig’i va mol-mulkiga tahdidni yuzaga keltiruvchi va binolarning, inshootlarning, asbob uskunalarning va transport vositalarining shikastlanishiga, ishlab chiqarish va transport (yuk tashish) jarayonining buzilishiga hamda odamlar sog’lig’iga, shuningdek atrof tabiiy muhitga zarar etishiga olib kelishi mumkin bo’lgan xavfli texnogen hodisa.",
+  "transport_safety_info1_text": "Aniq bir hudud yoki obyektda odamlarning hayoti, sog’ligi va mol-mulkiga tahdidni yuzaga keltiruvchi va binolarning, inshootlarning, asbob uskunalarning va transport vositalarining shikastlanishiga, ishlab chiqarish va transport (yuk tashish) jarayonining buzilishiga hamda odamlar sog’ligiga, shuningdek atrof tabiiy muhitga zarar yetishiga olib kelishi mumkin bo’lgan xavfli texnogen hodisa.",
   "transport_safety_advice": "Kerakli tavsiyalar",
   "transport_safety_advice_text": "Doimo xavfsizlik kamarlaridan foydalaning!",
   "transport_safety_advice_text1": "Mashinani boshqarish vaqtida hushyor bo'ling. Agar charchoq his qilsangiz, to'xtab dam oling!",
-  "transport_safety_advice_text2": "Agar yo'lovchi bo'lsangiz, haydovchiga halaqit bermang. Haydovchining sog'lig'iga e'tiborli bo'ling!",
+  "transport_safety_advice_text2": "Agar yo'lovchi bo'lsangiz, haydovchiga xalaqit bermang. Haydovchining sog'ligiga e'tiborli bo'ling!",
   "transport_safety_advice_text3": "Transport hodisasi bo'lganda, vahimaga berilmay tinchroq joyga harakatlaning. Iloji boricha sheriklaringizga yordam berishga harakat qiling. Ishonch raqamlariga (103,102,101) habar bering!",
   "transport_safety_advice_text4": "Mashinaning portlash xavfini sezsangiz undan zudlik bilan uzoqlashing!",
   "earthquake_safety_info": "Zilzila",
-  "earthquake_safety_info_text": "Eng falokatli tabiiy ofat bo’lib, еr ichki enеr-giyasining o’zgarishi, vulqon otilishi jarayonlari va insonning xo’jalik faoliyati tufayli yuzaga kеladi. Vaqt tanlamaydigan bu ofat bir nеcha soniya ichida minglab insonlarning qurbon bo’lishi va katta iqtisodiy zararga olib kеladi.",
+  "earthquake_safety_info_text": "Eng falokatli tabiiy ofat bo’lib, yеr ichki enеrgiyasining o’zgarishi, vulqon otilishi jarayonlari va insonning xo’jalik faoliyati tufayli yuzaga kеladi. Vaqt tanlamaydigan bu ofat bir nеcha soniya ichida minglab insonlarning qurbon bo’lishi va katta iqtisodiy zararga olib kеladi.",
   "earthquake_safety_advice": "Zilziladan avval nima qilish kerak: ",
   "earthquake_safety_advice_text": "Uyingiz va Ishxonangizdagi eng xavfsiz joylarni aniqlab qo’ying!",
   "earthquake_safety_advice_text1": "Eng zarur narsalaringiz (hujjatlar, dori qutisi, qimmatli qog’ozlar) doimo tayyor holda tursin!",
@@ -331,7 +333,7 @@ static const Map<String,dynamic> uz = {
   "earthquake_safety_advice1_text4": "Avtomobilda bo’lsangiz, mashinani to’xtating!",
   "earthquake_safety_advice1_text5": "Ko’chada bo’lsangiz, qulab tushishi mumkin bo’lgan obyektlardan uzoqroq turing!",
   "flood_safety_info": "Toshqin",
-  "flood_safety_info_text": "Bu  asosan jalali yomg'ir, qorning erishi, suv bosimi natijasida daryo, ko’l va suv omborlaridagi suv hajmining ko’tarilishi hisobiga yuzaga kеladi. Katta miqdordagi binolar buzilishi, inshoatlar, yo’llar, aloqa tarmoqlari, elеktr uzatish inshoatlari, o’simliklarni, hayvonlarni va odamlarni nobud bo’lishiga olib kеladi.",
+  "flood_safety_info_text": "Bu  asosan jalali yomg'ir, qorning erishi, suv bosimi natijasida daryo, ko’l va suv omborlaridagi suv hajmining ko’tarilishi hisobiga yuzaga kеladi. Katta miqdordagi binolar buzilishi, inshootlar, yo’llar, aloqa tarmoqlari, elеktr uzatish inshootlari, o’simliklarni, hayvonlarni va odamlarni nobud bo’lishiga olib kеladi.",
   "flood_safety_info1": "Sel",
   "flood_safety_info1_text": "Tog’ daryolari o’zanlarida to’satdan yuzaga keluvchi katta hajmdagi tog’ jinslari bo’laklari, xarsanglar va suv aralashmasidan iborat vaqtinchalik shiddatli oqim.",
   "flood_safety_info2": "Suv toshqini",
@@ -339,7 +341,7 @@ static const Map<String,dynamic> uz = {
   "flood_safety_advice": "Sel xavfi tug'ilganda: ",
   "flood_safety_advice_text": "Sel kelishi mumkin bo’lgan xavfli joylarni belgilab oling!",
   "flood_safety_advice_text1": "Xavfli maydonlarda dam olish uchun to’xtamang!",
-  "flood_safety_advice_text2": "Sel belgilari, xabar berish ignallarini kuzatib boring!",
+  "flood_safety_advice_text2": "Sel belgilari, xabar berish signallarini kuzatib boring!",
   "flood_safety_advice_text3": "Avvaldan xavfsiz joylarni va ularga chiqish yo’llarini belgilab oling!",
   "flood_safety_advice1": "Sel vaqtida: ",
   "flood_safety_advice1_text": "Sarosimaga tushmay, olingan axborot va vaziyatni tezda baholang!",
@@ -348,11 +350,11 @@ static const Map<String,dynamic> uz = {
   "flood_safety_advice1_text3": "Sel oqimiga tushib qolsangiz, oqim bo’yicha burchak ostida qirg’oqqa harakatlaning!",
   "flood_safety_advice2": "Seldan keyin: ",
   "flood_safety_advice2_text": "Sel takrorlanmasligiga ishonch hosil qiling!",
-  "flood_safety_advice2_text1": "Shikastlanganlarga tezdo yordam ko’rsating!",
+  "flood_safety_advice2_text1": "Shikastlanganlarga tezda yordam ko’rsating!",
   "flood_safety_advice2_text2": "Uyingizni mustahkamligini tezda tekshirib chiqing!",
   "flood_safety_advice2_text3": "Elektr tarmoqlaridan ehtiyot bo’lgan holda, turar joyingizdagi loyqa va qumlarni tozalang!",
   "avalanche_safety_info": "Qor ko’chkisi",
-  "avalanche_safety_info_text": "Tog'larning tik yonbag'irlarida qor massasining ag'darilib yoki sirpanib tushishi qor ko’chkilari dеb ataladi. Qorning ustki qismi biroz muzlagan bo’lib, uning ustiga qalin qor yogsa va ma'lum sabablarga ko’ra pastga qarab siljisa quruq ko’chki hosil bo’ladi. Bahor oylarida qor erigan suvining shimilib, qorning tagini ho’llashi natijasida qor massasining turg'unligi kamayib pastga agdarilib tushishidan ho’l ko’chki  hosil bo’ladi.",
+  "avalanche_safety_info_text": "Tog'larning tik yonbag'irlarida qor massasining ag'darilib yoki sirpanib tushishi qor ko’chkilari dеb ataladi. Qorning ustki qismi biroz muzlagan bo’lib, uning ustiga qalin qor yog'sa va ma'lum sabablarga ko’ra pastga qarab siljisa, quruq ko’chki hosil bo’ladi. Bahor oylarida qor erigan suvining shimilib, qorning tagini ho’llashi natijasida qor massasining turg'unligi kamayib pastga ag'darilib tushishidan ho’l ko’chki  hosil bo’ladi.",
   "avalanche_safety_advice": "Tavsiyalar",
   "avalanche_safety_advice_text": "Suv, oziq-ovqat va yoqilg’i zaxirasini tayyorlang. Radio va televizorni yoniq holda bo’lishiga e’tibor bering!",
   "avalanche_safety_advice_text1": "Avariya vositalarini (elektr lampalar, chiroq, kerosin lampasi) tayyorlang!",
@@ -381,7 +383,8 @@ static const Map<String,dynamic> uz = {
   "ecological_safety_advice_text4": "Sanoatda yer osti termal suvlardan (issiq suv 90 gradusli) foydalanish orqali ifloslanishni kamaytirish mumkin!",
   "ecological_safety_advice_text5": "Avtotransportlardan chiqadigan gazlarni, dudlarini kamaytirish orqali (benzin o‘rniga, propan yoqilg‘isini qo‘llash orqali) havoni ifloslanishini kamaytirish mumkin!",
   "ecological_safety_advice_text6": "Shahar va qishloqlarda yashil o‘simliklarni ko‘paytirish orqali havoni ifloslanishidan saqlash mumkin!",
-  "youtube_channel": "Bizning YouTube kanalimiz"
+  "youtube_channel": "Bizning YouTube kanalimiz",
+  "first_aid": "Brinchi yordam!"
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"ru": ru, "en": en, "uz": uz};
 }
